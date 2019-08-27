@@ -10,7 +10,6 @@ def evaluate_attribute_value_for(attribute, attribute_value)
   attribute_value.each_pair do |(attribute_desc, names)|
     evaluate_pigeon_names_for(names, attribute_desc, attribute, new_data)
   end
-  puts new_data
 end
 
 def evaluate_pigeon_names_for(names, attribute_desc, attribute, new_data) 
