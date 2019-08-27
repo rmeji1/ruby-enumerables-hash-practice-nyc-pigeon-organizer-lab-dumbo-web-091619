@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
       p  child_key, value
       value.each do |name| 
         puts name 
-        new_data[name][parent_key][child_key]
+        new_data[name][parent_key][child_key] = [value]
       end
     end
     
