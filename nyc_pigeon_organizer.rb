@@ -21,7 +21,6 @@ def evaluate_pigeon_names_for(names, child_key, parent_key)
     new_data[name] = {
       parent_key => [child_key]
     }
-    puts new_data
-    return
   end
+  return new_data
 end
