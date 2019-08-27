@@ -1,7 +1,7 @@
 def nyc_pigeon_organizer(data)
   new_data = {}
   data.each_pair do |(attribute, attribute_value)|
-    evaluate_parent_value_for(attribute, parent_value)
+    evaluate_parent_value_for(attribute, attribute_value)
     break
   end
 end
