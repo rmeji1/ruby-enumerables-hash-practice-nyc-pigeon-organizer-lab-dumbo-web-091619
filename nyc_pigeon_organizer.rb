@@ -17,9 +17,7 @@ end
 def evaluate_pigeon_names_for(names, attribute_desc, attribute, new_data) 
   names.each do |name| 
     if !new_data[name] || !new_data[name][attribute]
-      new_data[name] = {
-        attribute => []
-      }
+      new_data[name][attribute] = []
     end
     new_data[name][attribute] << attribute_desc.to_s
   end
