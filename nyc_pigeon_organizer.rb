@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
     evaluate_attribute_value_for(attribute, attribute_value, new_data)
     # break
   end
+  new_data
 end
 
 def evaluate_attribute_value_for(attribute, attribute_value, new_data)
