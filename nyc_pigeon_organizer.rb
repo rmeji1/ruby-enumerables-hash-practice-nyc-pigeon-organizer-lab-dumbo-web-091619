@@ -8,16 +8,16 @@ end
 
 def evaluate_parent_value_for(attribute, attribute_value)
   new_data = {}
-  attribute_value.each_pair do |(child_key, names)|
-    evaluate_pigeon_names_for(names, child_key, attribute, new_data)
+  attribute_value.each_pair do |(attribute_desc, names)|
+    evaluate_pigeon_names_for(names, attribute_desc, attribute, new_data)
   end
   puts new_data
 end
 
-def evaluate_pigeon_names_for(names, child_key, attribute, new_data) 
+def evaluate_pigeon_names_for(names, attribute_desc, attribute, new_data) 
   names.each do |name| 
     new_data[name] = {
-      attribute => [child_key]
+      attribute => [attribute_desc]
     }
   end
 end
