@@ -16,7 +16,6 @@ end
 
 def evaluate_pigeon_names_for(names, child_key, parent_key) 
   new_data = {}
-  p  child_key, names
   names.each do |name| 
     puts name 
     new_data[name] = {
