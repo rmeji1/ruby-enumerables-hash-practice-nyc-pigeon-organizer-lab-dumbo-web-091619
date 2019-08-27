@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
         puts name 
         new_data[name] = {
           parent_key => {
-            child_key => ["red"]
+            child_key => [value]
           }
         }
         
