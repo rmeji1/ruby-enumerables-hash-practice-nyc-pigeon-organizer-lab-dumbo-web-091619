@@ -8,7 +8,7 @@ end
 
 def evaluate_parent_value_for(parent_key, parent_value)
   new_data = {}
-  parent_value.each_pair do |(child_key, value)|
+  parent_value.each_pair do |(child_key, names)|
       p  child_key, value
       value.each do |name| 
         puts name 
