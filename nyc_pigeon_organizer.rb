@@ -20,6 +20,8 @@ def evaluate_pigeon_names_for(names, attribute_desc, attribute, new_data)
       new_data[name] = {
         attribute => [attribute_desc]
       }
+    else
+      
     end
   end
 end
