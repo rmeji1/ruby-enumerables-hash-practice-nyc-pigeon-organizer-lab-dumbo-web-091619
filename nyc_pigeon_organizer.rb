@@ -3,7 +3,6 @@ def nyc_pigeon_organizer(data)
   data.each_pair do |(attribute, attribute_value)|
     puts attribute
     evaluate_attribute_value_for(attribute, attribute_value, new_data)
-    # break
   end
   new_data
 end
