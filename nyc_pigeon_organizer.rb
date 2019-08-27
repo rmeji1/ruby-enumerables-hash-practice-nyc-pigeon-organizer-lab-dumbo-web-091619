@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
           }
         }
         
-        
+        break
         
         # [parent_key][child_key] = "red"
         puts new_data
