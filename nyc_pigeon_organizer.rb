@@ -21,6 +21,6 @@ def evaluate_pigeon_names_for(names, attribute_desc, attribute, new_data)
         attribute => []
       }
     end
-      new_data[name][attribute] << attribute_desc.to_s
+    new_data[name][attribute] << attribute_desc.to_s
   end
 end
