@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   end
 end
 
-def evaluate_parent_value_for(parent_key, key, parent_value)
+def evaluate_parent_value_for(parent_key, parent_value)
   parent_value.each_pair do |(child_key, value)|
       p  child_key, value
       value.each do |name| 
