@@ -20,6 +20,6 @@ def nyc_pigeon_organizer(data)
       end
     end
     
-    break
+
   end
 end
