@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     
     value.reduce({}) do |memo, val|
       p   val
-    each 
+    end
     
     break
   end
