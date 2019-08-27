@@ -12,6 +12,7 @@ def nyc_pigeon_organizer(data)
             child_key => [value]
           }
         }
+        puts new_data
       return
       end
     end
