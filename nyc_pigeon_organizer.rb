@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
     p key, value
     p  " "
     value.each_pair do |(key, value)|
-      p   val[0]
+      p   value
     end
     
     break
