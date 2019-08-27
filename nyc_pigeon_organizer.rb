@@ -1,9 +1,8 @@
 def nyc_pigeon_organizer(data)
   new_data = {}
   data.each_pair do |(parent_key, parent_value)|
-    p parent_key, parent_value
-    puts " "
-    value.each_pair do |(child_key, value)|
+
+    parent_value.each_pair do |(child_key, value)|
       p  child_key, value
       value.each do |name| 
         puts name 
@@ -15,6 +14,5 @@ def nyc_pigeon_organizer(data)
       end
     end
     
-
   end
 end
