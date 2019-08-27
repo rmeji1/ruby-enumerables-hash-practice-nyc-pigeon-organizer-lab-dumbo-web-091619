@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
     p key, value
     
     value.reduce({}) do |memo, val|
-      p  
+      p   val
     each 
     
     break
