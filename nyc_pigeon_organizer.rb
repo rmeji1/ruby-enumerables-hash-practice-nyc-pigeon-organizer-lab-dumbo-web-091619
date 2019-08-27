@@ -1,7 +1,7 @@
 def nyc_pigeon_organizer(data)
   data.each_pair do |(key, value)|
     p key, value
-    p 
+    p  " "
     value.reduce({}) do |memo, val|
       p   val
     end
