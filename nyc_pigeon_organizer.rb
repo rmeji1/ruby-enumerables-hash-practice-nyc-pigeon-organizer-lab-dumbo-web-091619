@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-  new_data = {}
+  # new_data = {}
   data.each_pair do |(attribute, attribute_value)|
     new_data = evaluate_attribute_value_for(attribute, attribute_value)
   end
