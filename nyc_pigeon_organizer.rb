@@ -2,7 +2,13 @@ def nyc_pigeon_organizer(data)
   new_data = {}
   data.each_pair do |(parent_key, parent_value)|
 
-    parent_value.each_pair do |(child_key, value)|
+    
+    
+  end
+end
+
+def evaluate_parent_value(parent_value)
+  parent_value.each_pair do |(child_key, value)|
       p  child_key, value
       value.each do |name| 
         puts name 
@@ -13,10 +19,4 @@ def nyc_pigeon_organizer(data)
       return
       end
     end
-    
-  end
-end
-
-def evaluate_parent_value(parent_value)
-  
 end
