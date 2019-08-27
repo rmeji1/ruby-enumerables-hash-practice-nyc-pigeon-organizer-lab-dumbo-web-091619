@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   data.each_pair do |(attribute, attribute_value)|
     evaluate_attribute_value_for(attribute, attribute_value, new_data)
   end
-  new_data
+  # new_data
 end
 
 def evaluate_attribute_value_for(attribute, attribute_value, new_data)
