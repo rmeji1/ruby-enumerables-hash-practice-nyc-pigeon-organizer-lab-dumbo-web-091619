@@ -6,9 +6,9 @@ def nyc_pigeon_organizer(data)
   end
 end
 
-def evaluate_parent_value_for(attribute, parent_value)
+def evaluate_parent_value_for(attribute, attribute_value)
   new_data = {}
-  parent_value.each_pair do |(child_key, names)|
+  attribute_value.each_pair do |(child_key, names)|
     evaluate_pigeon_names_for(names, child_key, attribute, new_data)
   end
   puts new_data
