@@ -11,7 +11,6 @@ def evaluate_parent_value_for(parent_key, parent_value)
   parent_value.each_pair do |(child_key, names)|
     evaluate_pigeon_names_for(names, child_key, parent_key, new_data)
     puts new_data
-    break
   end
 end
 
