@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-  data.each_pair do |(key, value)|
+  data.each_pair do |(parent_key, value)|
     p key, value
     puts " "
     value.each_pair do |(key, value)|
