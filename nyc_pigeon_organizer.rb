@@ -13,7 +13,7 @@ def evaluate_parent_value_for(parent_key, parent_value)
     end
 end
 
-def evaluate_pigeon_names_for(names, child_key) 
+def evaluate_pigeon_names_for(names, child_key, parent_key) 
   new_data = {}
   p  child_key, names
   names.each do |name| 
