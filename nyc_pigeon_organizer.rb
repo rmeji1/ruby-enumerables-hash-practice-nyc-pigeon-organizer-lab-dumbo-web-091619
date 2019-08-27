@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     puts attribute
     evaluate_attribute_value_for(attribute, attribute_value, new_data)
   end
-  puts new_data["Theo"]
+  puts "theo", new_data["Theo"]
   new_data
 end
 
