@@ -17,7 +17,7 @@ end
 
 def evaluate_pigeon_names_for(names, child_key) 
   p  child_key, value
-  value.each do |name| 
+  names.each do |name| 
     puts name 
         new_data[name] = {
           parent_key => [child_key]
