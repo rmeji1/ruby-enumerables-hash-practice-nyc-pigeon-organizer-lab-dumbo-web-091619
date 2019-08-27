@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
       value.each do |name| 
         puts name 
         new_data[name][parent_key][child_key] = "red"
+        puts new_data
       end
     end
     
